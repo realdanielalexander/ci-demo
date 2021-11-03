@@ -18,4 +18,4 @@ jobs:
       - uses: JS-DevTools/npm-publish@v1
         with:
           registry: https://npm.pkg.github.com
-          token: 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
+          token: ${{ secrets.GITHUB_TOKEN }}
